@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:hover {
+  cursor: pointer;
+  background-color: #f2f2f2 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.deco-none {
+  text-decoration: none;
+  color: #000000;
+}
+
+.card {
+  width: fit-content;
+  margin: auto;
+}
